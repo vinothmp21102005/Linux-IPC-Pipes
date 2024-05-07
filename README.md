@@ -24,7 +24,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-``` c
+``` 
 $ cat pipe1.c 
 #include<stdio.h>
 #include<stdlib.h>
@@ -87,17 +87,8 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 ## OUTPUT
 ```
-cat> hello.txt
-Hello world
-
-$ ./pipe1.o 
-ENTER THE FILE NAME :hello.txt	
-CLIENT SENDING THE REQUEST .... PLEASE WAIT
-THE RESULTS OF CLIENTS ARE ...... 
-Hello world
-to check pipe
-```
 ![alt text](image.png)
+```
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 ```
 #include <unistd.h>
@@ -116,12 +107,7 @@ exit(EXIT_SUCCESS);
 
 ## OUTPUT
 ```
-$ ./fifo1.o 
-FIFO created
-
-$ ls -l /tmp/my_fifo 
-prwxr-xr-x 1 gganesh gganesh 0 Sep 17 09:25 /tmp/my_fifo
+![alt text](image-2.png)
 ```
-![alt text](image-1.png)
 # RESULT:
 The program is executed successfully.
