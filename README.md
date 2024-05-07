@@ -7,7 +7,7 @@ Linux-IPC-Pipes
 # AIM:
 To write a C program that illustrate communication between two process using unnamed and named pipes
 
-# DESIGN STEPS:
+# DESIGN STEP:
 
 ### Step 1:
 
@@ -24,7 +24,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-```
+``` c
 $ cat pipe1.c 
 #include<stdio.h>
 #include<stdlib.h>
